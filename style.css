@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3f3f3;
+  font-family: 'Poppins', sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.clock-container {
+  text-align: center;
+}
+
+#clock {
+  font-size: 80px;
+  color: #222;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #222;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #444;
+}
+
+/* Dark mode */
+.dark {
+  background: #222;
+  color: white;
+}
+
+.dark #clock {
+  color: #00ffcc;
+}
+
+.dark button {
+  background: white;
+  color: #222;
+}
